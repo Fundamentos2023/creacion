@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./styles.css">
+
+
+</head>
+<body>
+
+  <div class="navbar">
+    <a class="letraestilo" href="../OPTICA/especialistas.html">REGRESAR</a>
+  </div>
+  <br>
+</div>
+
+    <form id="tamañosection" action="wilson.porras0173@utc.edu.ec" method="post" enctype="text/plain">
+        <h2 class="letraestilo" align="center">BIENVENIDO FORMULARIO ATENCIÓN MÉDICA</h2>
+        <fieldset>
+        <legend>DATOS PERSONALES</legend>
+
+        <p><label for="nombre">APELLIDOS:</label> <input type="text" name="nombre" id="nombre"/> 
+           <label for="apellido1">NOMBRES:</label> <input type="text" name="apellido1" id="apellido1" size="25"/>
+           
+        <p><label for="direccion">DIRECCIÓN:</label> <input type="text" name="direccion" id="direccion" size="50"/></p>
+        <p><label for="e-mail">E-MAIL:</label> <input type="text" name="e-mail" id="e-mail" size="35" value:" @ "/></p>
+      
+        <p>GÉNERO<br/>
+           <input type="radio" name="sexo" id="MASCULINO" value="M"/> <label for="varon">Masculino</label><br/>
+             <input type="radio" name="sexo" id="FEMENINO" value="F"/> <label for="mujer">Femenino</label></p>
+        </fieldset>	
+        <fieldset>
+        <legend>CONSULTORIO</legend> 
+        <p>Tipo de sangre<br/>
+           <input type="radio" name="estudios" id="estudios1" value="1" checked="checked"> <label for="estudios1">A+</label><br/>
+             <input type="radio" name="estudios" id="estudios2" value="2"/> <label for="estudios2">O+</label><br/>
+             <input type="radio" name="estudios" id="estudios3" value="3"/> <label for="estudios3">B+</label><br/>
+             <input type="radio" name="estudios" id="estudios4" value="4"/> <label for="estudios4">A-</label><br/>
+             <input type="radio" name="estudios" id="estudios5" value="5"/> <label for="estudios5">AB+</label><br/>
+        <p>Recibir información sobre los siguientes temas: <br/>
+          <input type="checkbox" name="musica" id="musica"/> <label for="musica">Citas</label><br/>
+            <input type="checkbox" name="deportes" id="deportes"/> <label for="deportes">Atención</label><br/>
+            <input type="checkbox" name="cine" id="cine"/> <label for="cine">Horarios</label><br/>
+            <input type="checkbox" name="libros" id="libros"/> <label for="libros">Solicitud</label><br/>
+            <input type="checkbox" name="ciencia" id="ciencia"/> <label for="ciencia">Registros</label></p>
+        </fieldset>
+        <fieldset>
+        <legend>AGENDAR</legend>
+        <p><label for="frecuencia">Horario de Asistencia:</label></p>
+        <p><select name="frecuencia" id="frecuencia">
+             <option>Lunes</option>
+             <option>Martes</option>
+             <option>Miercoles</option>
+             <option>Jueves</option>
+             <option>Viernes</option>
+        
+        </select>
+ 
+        <p><label for="elegir">Elija a su especialista de confianza:</label></p>
+        <p><select name="elegir" id="elegir">
+             <option>León Carrasco María Elisa</option>
+             <option>Jadue Hund Andrea Fernanda</option>
+             <option>Araujo Alonso Miguel Angel</option>
+
+           </select>
+        <p>Porfavor, enviar su hoja de vida (Para especificar su diagnóstico y copia de cédula)</p>
+        <p><label for="articulo">Enviar documento:</label> <input type="file" name="artículo" id="articulo"/> 		
+                
+        <p><label for"comentario">Si desea enviar una opinión o comentario escribelo aquí.</label><br/>
+        <textarea name="comentario" id="comentario" rows="5" cols="50" placeholder="Escribe tu comentario:"></textarea>
+        </fieldset>
+        <fieldset>
+
+        <legend>ENVIAR FORMULARIO</legend>
+        <p>Una vez completado el formulario, porfavor presione "Enviar":</p>
+
+        <!-- <p><input type="submit" value="ENVIAR"/>  -->
+        <button><a  style="color: rgb(0, 0, 0);" href="../OPTICA/especialistas.html">ENVIAR</a></button>
+
+        </fieldset>
+        </form>
+
+</body>
+</html>
